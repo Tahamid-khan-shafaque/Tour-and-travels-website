@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+  
+    
+   
+   
+}
+
+.cls h1{
+    width: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(38) infinite alternate;
+    justify-content: center;
+}
+
+
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 38ch;
+    }
+}
+
+
+
+
+.header img {
+    width: 170px;
+    float: left;
+
+}
+
+
+
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+   /*  outline: none; */
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    
+}
+
+.reg_btn{
+    width: 100px;
+    padding: 8px 0;
+   /*  outline: none; */
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+
+
+
+}
+
+.header h1 {
+    padding-top: 200px;
+    font-size: 55px;
+}
+
+.header p {
+    margin: 18px;
+}
+
+.login-btn{
+    color: black;
+    background-color: bisque;
+    transition: all 1.3s;
+}
+
+.login-btn:hover{
+    color: black;
+    background-color: greenyellow
+   
+}
+
+.reg_btn{
+    color: black;
+    background-color: bisque;
+    transition: all 1.3s;
+}
+
+.reg_btn:hover{
+    color: black;
+    background-color: greenyellow
+   
+}
+
+.cls a{
+    color: white;
+    background-color: darkorange;
+    border-radius: 26px;
+    margin: 5px 6px;
+    padding: 6px 17px;
+  }
+
+
+  .cls a:hover{
+    color: darkgray;
+    background-color: green;
+ 
+  }

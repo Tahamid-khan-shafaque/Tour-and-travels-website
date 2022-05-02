@@ -1,0 +1,32 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/log.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.text-center{
+  /*   font-family: 'Beau Rivage', cursive!important; */
+  /*  font-family: 'Rubik Wet Paint', cursive; */
+    font-family: 'Abril Fatface', cursive;
+    text-align: center !important;
+    color: black !important;
+    background-color: orangered !important;
+    border-radius: 40px !important;
+    margin: 39px!important;
+    padding: 13px!important;
+}
+
+.form-label{
+    color: white!important;
+    font-size: 20px;
+}
